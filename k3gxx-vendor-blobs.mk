@@ -112,10 +112,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
   vendor/samsung/k3gxx/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/liblvverx_3.21.13.so:system/vendor/lib/liblvverx_3.21.13.so \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/liblvvetx_3.21.13.so:system/vendor/lib/liblvvetx_3.21.13.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/camera.universal5422.so:system/lib/hw/camera.universal5422.so \
   vendor/samsung/k3gxx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
   vendor/samsung/k3gxx/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+  vendor/samsung/k3gxx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
   vendor/samsung/k3gxx/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
   vendor/samsung/k3gxx/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/k3gxx/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
@@ -127,6 +127,11 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
   vendor/samsung/k3gxx/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
+  vendor/samsung/k3gxx/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/sensors.universal5422.so:system/lib/hw/sensors.universal5422.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/sensorhubs.universal5422.so:system/lib/hw/sensorhubs.universal5422.so \
   vendor/samsung/k3gxx/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
@@ -168,19 +173,11 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/nfc_nci.universal5422.so:system/lib/hw/nfc_nci.universal5422.so \
   vendor/samsung/k3gxx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-  vendor/samsung/k3gxx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
   vendor/samsung/k3gxx/proprietary/lib/libhr.so:system/lib/libhr.so \
   vendor/samsung/k3gxx/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
   vendor/samsung/k3gxx/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-  vendor/samsung/k3gxx/proprietary/bin/cs:system/bin/cs \
   vendor/samsung/k3gxx/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
   vendor/samsung/k3gxx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
   vendor/samsung/k3gxx/proprietary/bin/mfgloader:system/bin/mfgloader \
   vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd \
-  vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-  vendor/samsung/k3gxx/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
-  vendor/samsung/k3gxx/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
-  vendor/samsung/k3gxx/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
-  vendor/samsung/k3gxx/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
-  vendor/samsung/k3gxx/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
-  vendor/samsung/k3gxx/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so
+  vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice
