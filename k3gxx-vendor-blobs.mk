@@ -87,6 +87,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
   vendor/samsung/k3gxx/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/k3gxx/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+  vendor/samsung/k3gxx/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+  vendor/samsung/k3gxx/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
   vendor/samsung/k3gxx/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
   vendor/samsung/k3gxx/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
   vendor/samsung/k3gxx/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
@@ -168,5 +170,5 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/samsung/k3gxx/proprietary/bin/mfgloader:system/bin/mfgloader \
-  vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd \
+  vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd
   vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice
